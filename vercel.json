@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "cafe-management-system",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "regions": ["sin1"],
+  "github": {
+    "silent": true
+  }
+}
